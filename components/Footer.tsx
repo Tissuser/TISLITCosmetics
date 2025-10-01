@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
           <a href="#" aria-label="Facebook" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook-f"></i></a>
           <a href="#" aria-label="TikTok" target="_blank" rel="noopener noreferrer"><i className="fab fa-tiktok"></i></a>
         </div>
-        <p>&copy; {new Date().getFullYear()} TisalitCosmetics. جميع الحقوق محفوظة.</p>
+        <p>&copy; {new Date().getFullYear()} TISLITCosmetics. جميع الحقوق محفوظة.</p>
       </div>
     </footer>
   );
