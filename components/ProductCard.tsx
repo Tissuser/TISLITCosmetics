@@ -7,7 +7,7 @@ interface ProductCardProps {
 
 const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
   // Remember to replace this with your actual WhatsApp number
-  const whatsappNumber = '+212 609-139950';
+  const whatsappNumber = '212609139950';
   const message = `أهلاً TISLITCosmetics أرغب في طلب منتج: ${product.name}`;
   const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
 
